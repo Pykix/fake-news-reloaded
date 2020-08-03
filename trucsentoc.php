@@ -4,6 +4,11 @@ require_once 'libs/variables.php';
 require_once 'libs/functions.php';
 require_once 'inc/header.php';
 require_once 'inc/navbar.php';
+
+
+
+
+
 ?>
 <div class="container">
     <div class="separator"></div>

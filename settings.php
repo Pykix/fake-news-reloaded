@@ -6,6 +6,17 @@ $page = 'Settings | ' . $_SESSION['user']['login'];
 require_once 'inc/header.php';
 require_once 'inc/adminnavbar.php';
 
+
+if (isset($_POST['indexSubtitle']) || isset($_POST['trucsentocSubtitle'])) {
+    if (!empty($_POST['indexSubtitle'])) {
+        modificateSubtitle($db_cnx, $_POST['indexSubtitle'], 'index');
+    }
+    if (!empty($_POST['trucsentocSubtitle'])) {
+        modificateSubtitle($db_cnx, $_POST['trucsentocSubtitle'], 'toc');
+    }
+}
+
+
 ?>
 <div class="container">
 <h1>Reglages</h1>
@@ -13,8 +24,8 @@ require_once 'inc/adminnavbar.php';
         <label for="indexSubtitle" class="form-label">Sous titre de la page principale</label>
         <input type="text" name="indexSubtitle" id="indexSubtitle" class="form-control">
 
-        <label for="trucentocSubtitle" class="form-label">Sous titre de la page trucs en toc</label>
-        <input type="text" name="trucsentocSubtitle" id="trucentocSubtitle" class="form-control">
+        <label for="trucsentocSubtitle" class="form-label">Sous titre de la page trucs en toc</label>
+        <input type="text" name="trucsentocSubtitle" id="trucsentocSubtitle" class="form-control">
     <button type="submit" class="mt-3 w-25">Modifier</button>
     </form>
 </div>

@@ -16,6 +16,33 @@ function displayArticles ($db_cnx) {
     }
 }
 
+function displayUsers ($db_cnx) {
+    $q_users = 'SELECT `id`, `login`, `role` FROM `users`';
+    $users = [];
+    $r_users = mysqli_query($db_cnx, $q_users);
+    if (!$r_users) {
+        echo 'Un probleme de connexion est survenu';
+    } else {
+        while ($user = mysqli_fetch_assoc( $r_users )) {
+            $users[] = $user;
+        }
+        return $users;
+    }
+}
+function displayUniqueUsers ($db_cnx, $id) {
+    $q_users = 'SELECT `id`, `login`, `role` FROM `users` WHERE `id` =' . $id;
+    $users = [];
+    $r_users = mysqli_query($db_cnx, $q_users);
+    if (!$r_users) {
+        echo 'Un probleme de connexion est survenu';
+    } else {
+        while ($user = mysqli_fetch_assoc( $r_users )) {
+            $users[] = $user;
+        }
+        return $users;
+    }
+}
+
 function displaySubtitle ($db_cnx, $page) {
     $q_title = "SELECT `value` FROM `settings` WHERE `name` LIKE '%" . $page . "'";
     $title = [];
@@ -31,6 +58,14 @@ function displaySubtitle ($db_cnx, $page) {
 
 }
 
+
+function modificateSubtitle ($db_cnx, $value, $name) {
+    $q_modificate = "UPDATE `settings` SET `value` = '" . $value ."'" . " WHERE `name` LIKE '%" . $name . "'" ;
+
+    mysqli_query($db_cnx, $q_modificate);
+}
+
+
 function countThings ($db_cnx, $table) {
     $q_users_count = 'SELECT COUNT(`id`) as `total` FROM ' . $table;
     $r_users_count = mysqli_query($db_cnx, $q_users_count);
@@ -41,3 +76,5 @@ function countThings ($db_cnx, $table) {
     }
     return $users_count;
 }
+
+

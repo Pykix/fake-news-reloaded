@@ -2,6 +2,7 @@
 $page = 'Connexion - Fake News II';
 require_once 'libs/variables.php';
 require 'inc/header.php';
+require_once 'inc/navbar.php';
 // TODO enlever le var_dump
 var_dump($_SESSION['user']);
 $has_error = isset($_SESSION['error_cnx']);

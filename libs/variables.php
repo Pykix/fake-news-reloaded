@@ -12,3 +12,4 @@ $connected = isset($_SESSION['user']);
 $db_cnx = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 mysqli_set_charset($db_cnx, "utf8");
+
