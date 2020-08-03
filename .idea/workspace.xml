@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
+      <change afterPath="$PROJECT_DIR$/addArticle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/addArticle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/deleteArticle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/adminnavbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/adminnavbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/deleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +87,8 @@
       <workItem from="1596280035983" duration="6587000" />
       <workItem from="1596289963879" duration="7276000" />
       <workItem from="1596427815483" duration="497000" />
-      <workItem from="1596428325587" duration="35564000" />
+      <workItem from="1596428325587" duration="35593000" />
+      <workItem from="1596483215762" duration="7914000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
@@ -133,10 +140,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="646" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596281219573" />
-    <state x="764" y="483" key="NewPhpFileDialog" timestamp="1596469777469">
+    <state x="764" y="483" key="NewPhpFileDialog" timestamp="1596489461177">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="764" y="483" key="NewPhpFileDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596469777469" />
+    <state x="764" y="483" key="NewPhpFileDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596489461177" />
     <state x="491" y="205" key="SettingsEditor" timestamp="1596427969915">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -145,5 +152,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596474515072" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596486569397">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596486569397" />
   </component>
 </project>

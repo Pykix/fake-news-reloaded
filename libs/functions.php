@@ -42,6 +42,19 @@ function displayUniqueUsers ($db_cnx, $id) {
         return $users;
     }
 }
+function displayUniqueArticle ($db_cnx, $id) {
+    $q_articles = 'SELECT * FROM `posts` WHERE `id` =' . $id;
+    $articles = [];
+    $r_articles = mysqli_query($db_cnx, $q_articles);
+    if (!$r_articles) {
+        echo 'Un probleme de connexion est survenu';
+    } else {
+        while ($article = mysqli_fetch_assoc( $r_articles )) {
+            $articles[] = $article;
+        }
+        return $articles;
+    }
+}
 
 function displaySubtitle ($db_cnx, $page) {
     $q_title = "SELECT `value` FROM `settings` WHERE `name` LIKE '%" . $page . "'";

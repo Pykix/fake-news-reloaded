@@ -25,7 +25,7 @@ require_once 'libs/variables.php';
         </li>
         <?php endif; ?>
         <li>
-            <a href="#">
+            <a href="articles.php">
                 <i class="far fa-newspaper icon"></i>
                 <span class="title">Articles</span>
             </a>
