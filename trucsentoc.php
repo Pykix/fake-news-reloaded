@@ -2,13 +2,14 @@
 $page = 'Trucs en Toc - Fake News II';
 require_once 'libs/variables.php';
 require_once 'libs/functions.php';
-require 'inc/header.php';
+require_once 'inc/header.php';
+require_once 'inc/navbar.php';
 ?>
 <div class="container">
     <div class="separator"></div>
     <div class="separator"></div>
     <section class="last-news">
-        <h1>les dernieres <strong>fake news</strong>!</h1>
+        <h1><?php echo displaySubtitle($db_cnx, 'toc')?></h1>
         <div class="">
             <?php if (isset($db_cnx)) {
             foreach (displayArticles($db_cnx) as $article): ?>

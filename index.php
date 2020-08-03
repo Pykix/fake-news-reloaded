@@ -1,14 +1,18 @@
 <?php
 $page = 'Accueil - Fake News II';
+require_once 'libs/variables.php';
 require 'inc/header.php';
+require_once 'inc/navbar.php';
 include_once 'libs/functions.php';
-
+// TODO Enlever le var_dump
+var_dump($_SESSION['user']);
 ?>
     <div class="container text-center">
         <div class="separator"></div>
         <div class="separator"></div>
         <section class="last-news">
-            <h1>les dernieres <strong>fake news</strong>!</h1>
+
+            <h1><?php echo displaySubtitle($db_cnx, 'index')  ?></h1>
             <div class="last-news d-flex flex-md-row flex-md-wrap align-items-start flex-lg-nowrap justify-content-md-center ">
                 <?php if (isset($db_cnx)) {
                     foreach (displayArticles($db_cnx) as $article): ?>
