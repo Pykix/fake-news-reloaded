@@ -4,9 +4,7 @@ require_once 'libs/variables.php';
 require 'inc/header.php';
 require_once 'inc/navbar.php';
 include_once 'libs/functions.php';
-// TODO Enlever le var_dump
-var_dump($_SESSION['user']);
-var_dump(hash('sha512', 'fakenewsadmin'));
+
 ?>
     <div class="container text-center">
         <div class="separator"></div>
