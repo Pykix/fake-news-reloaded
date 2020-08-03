@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
-      <change afterPath="$PROJECT_DIR$/addArticle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/addArticle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/deleteArticle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/adminnavbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/adminnavbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/deleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/deleteUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,7 @@
       <workItem from="1596289963879" duration="7276000" />
       <workItem from="1596427815483" duration="497000" />
       <workItem from="1596428325587" duration="35593000" />
-      <workItem from="1596483215762" duration="7914000" />
+      <workItem from="1596483215762" duration="8782000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
