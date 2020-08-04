@@ -3,7 +3,7 @@ require_once 'variables.php';
 
 
 function displayArticles ($db_cnx) {
-    $q_articles = 'SELECT * FROM `posts`';
+    $q_articles = 'SELECT * FROM `posts` ORDER BY `date_creation` DESC';
     $articles = [];
     $r_articles = mysqli_query($db_cnx, $q_articles);
     if (!$r_articles) {

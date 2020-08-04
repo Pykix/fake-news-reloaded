@@ -13,23 +13,22 @@ $page = $title . ' | Fake News II';
 
 require 'inc/header.php';
 require_once 'inc/navbar.php';
-
-
-var_dump($id);
-
-foreach (displayUniqueArticle($db_cnx, $id) as $elt): ?>
+?>
+<div id="details">
+<div class="container">
+<?php foreach (displayUniqueArticle($db_cnx, $id) as $elt): ?>
     <h3><?php echo $elt['title'] ?></h3>
-    <article>
-        <p><?php echo $elt['date_creation'] ?></p>
-        <img src="<?php echo $elt['image'] ?>" alt="image">
-        <p><?php echo $elt['chapo'] ?></p>
-        <p><?php echo $elt['content'] ?></p>
+    <div class="separator"></div>
+    <div class="separator"></div>
+    <article class="text-center">
+        <p id="date"><?php echo $elt['date_creation'] ?></p>
+        <img src="<?php echo $elt['image'] ?>" class="img-article" alt="image">
+        <p class="text-left"><?php echo $elt['chapo'] ?></p>
+        <p class="text-left"><?php echo $elt['content'] ?></p>
     </article>
 
-
-
 <?php endforeach; ?>
-
-
+</div>
+</div>
 <?php
 require 'inc/footer.php';

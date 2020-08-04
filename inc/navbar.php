@@ -32,10 +32,11 @@
         </nav>
         <div class="brand-name">
             <h1 class="title">Fake news II</h1>
+            <?php if ($_SERVER['SCRIPT_NAME'] !== '/detailsArticle.php'): ?>
             <p class="p-title">
-                il revient et il est pas content ! <br>
-                mythoné en php et mysql.
+                <?php echo displaySubtitle($db_cnx, $_SERVER['SCRIPT_NAME'] == '/index.php' ? 'index' : 'toc' );?>
             </p>
+            <?php endif; ?>
         </div>
     </header>
 </div>

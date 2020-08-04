@@ -1,5 +1,5 @@
-
-<div class="location container-fluid">
+<div class="background pb-1">
+<div class="location container mx-auto">
 
     <div class="text-center">
     <h3>
@@ -51,7 +51,7 @@
         <a href="#">Mentions Illégales</a>
     </p>
 </footer>
-
+</div>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="../asset/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="../js/app.js"></script>
