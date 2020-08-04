@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image/133878.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailsArticle.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modificateArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trucsentoc.php" beforeDir="false" afterPath="$PROJECT_DIR$/trucsentoc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +55,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +86,9 @@
       <workItem from="1596289963879" duration="7276000" />
       <workItem from="1596427815483" duration="497000" />
       <workItem from="1596428325587" duration="35593000" />
-      <workItem from="1596483215762" duration="8782000" />
+      <workItem from="1596483215762" duration="9116000" />
+      <workItem from="1596519771606" duration="66000" />
+      <workItem from="1596519847729" duration="4871000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
@@ -116,6 +123,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="styling page" />
     <MESSAGE value="suite backend" />
     <option name="LAST_COMMIT_MESSAGE" value="suite backend" />
@@ -129,25 +137,25 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596234697969" />
-    <state x="646" y="362" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596281219573">
+    <state x="646" y="362" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596524112732">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="646" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596281219573" />
-    <state x="764" y="483" key="NewPhpFileDialog" timestamp="1596489461177">
+    <state x="646" y="362" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596524112732" />
+    <state x="764" y="483" key="NewPhpFileDialog" timestamp="1596520304053">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="764" y="483" key="NewPhpFileDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596489461177" />
-    <state x="491" y="205" key="SettingsEditor" timestamp="1596427969915">
+    <state x="764" y="483" key="NewPhpFileDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596520304053" />
+    <state x="491" y="205" key="SettingsEditor" timestamp="1596520922753">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="491" y="205" key="SettingsEditor/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596427969915" />
+    <state x="491" y="205" key="SettingsEditor/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596520922753" />
     <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1596474515072">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596474515072" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596486569397">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596520717053">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596486569397" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596520717053" />
   </component>
 </project>

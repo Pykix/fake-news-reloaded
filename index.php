@@ -12,11 +12,11 @@ include_once 'libs/functions.php';
         <section class="last-news">
 
             <h1><?php echo displaySubtitle($db_cnx, 'index')  ?></h1>
-            <div class="last-news d-flex flex-md-row flex-md-wrap align-items-start flex-lg-nowrap justify-content-md-center ">
+            <div class="last-news d-flex flex-md-row flex-md-wrap align-items-start justify-content-md-center ">
                 <?php if (isset($db_cnx)) {
                     foreach (displayArticles($db_cnx) as $article): ?>
                         <article class="col-md-6 col-lg-4 align-items-stretch mt-lg-0">
-                            <a href="#">
+                            <a href="trucsentoc.php#<?php echo $article['id'] ?>">
                             <img src="<?php echo $article['image'] ?>" alt="img"/>
                             <p id="date" class="mt-lg-5"><?php echo $article['date_creation'] ?></p>
                             <h2><?php echo $article['title'] ?></h2>
