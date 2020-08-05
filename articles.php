@@ -11,7 +11,7 @@ require_once 'inc/adminnavbar.php';
 <div class="container">
     <div class="row">
         <?php if (isset($db_cnx)) {
-            foreach (displayArticles($db_cnx) as $article): ?>
+            foreach (displayArticles($db_cnx, '100') as $article): ?>
                 <div class="col-auto card text-white bg-primary mb-3">
                     <div class="card-header"><?php echo $article['title'] ?></div>
                     <div class="card-body">

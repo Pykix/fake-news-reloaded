@@ -41,18 +41,20 @@ if (isset($_POST['title'])) {
 
 
 ?>
-    <div class="container">
+    <h2 class="text-center">Modification d'article</h2>
+    <div class="container d-md-flex justify-content-around">
 
         <?php foreach (displayUniqueArticle($db_cnx, $_SESSION['id']) as $elt): ?>
-            <p>titre : <?php echo $elt['title'] ?></p>
-            <p>date : <?php echo $elt['date_creation'] ?></p>
-            <p>chapô : <?php echo $elt['chapo'] ?></p>
-            <p>contenu : <?php echo $elt['content'] ?></p>
-            <p>image : <img src="<?php echo $elt['image'] ?>" alt=""></p>
-
+        <div class="mt-2 border rounded p-2">
+            <p>titre : <br> <?php echo $elt['title'] ?></p>
+            <p>date : <br><?php echo $elt['date_creation'] ?></p>
+            <p>chapo : <br><?php echo $elt['chapo'] ?></p>
+            <p>contenu : <br><?php echo $elt['content'] ?></p>
+            <p>Image : <br><img src="<?php echo $elt['image'] ?>" alt=""></p>
+        </div>
         <?php endforeach; ?>
 
-        <form method="post" action="modificateArticles.php" enctype="multipart/form-data">
+        <form class="mt-2" method="post" action="modificateArticles.php" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="title" class="form-label">Titre</label>
                 <input type="text" name="title" class="form-control" id="title">
@@ -71,13 +73,13 @@ if (isset($_POST['title'])) {
                 <textarea class="form-control" id="content" name="content" rows="3"></textarea>
             </div>
             <div class="form-file">
-                <input type="file" class="form-file-input" name="image" id="image">
+                <input type="file" class="form-file-input" name="image" id="image" >
                 <label class="form-file-label" for="image">
-                    <span class="form-file-text">Choose file...</span>
-                    <span class="form-file-button">Browse</span>
+                    <span class="form-file-text">Choisir une image...</span>
+                    <span class="form-file-button">Charger</span>
                 </label>
             </div>
-            <button type="submit" class="btn btn-success">Modifier</button>
+            <button type="submit" class="btn btn-success mt-2">Modifier</button>
         </form>
 
     </div>

@@ -1,6 +1,7 @@
 <?php
 $page = 'Connexion - Fake News II';
 require_once 'libs/variables.php';
+require_once 'libs/functions.php';
 require 'inc/header.php';
 require_once 'inc/navbar.php';
 

@@ -2,8 +2,8 @@
 require_once 'variables.php';
 
 
-function displayArticles ($db_cnx) {
-    $q_articles = 'SELECT * FROM `posts` ORDER BY `date_creation` DESC';
+function displayArticles ($db_cnx, $limit) {
+    $q_articles = 'SELECT * FROM `posts`  ORDER BY `date_creation`  DESC  LIMIT ' . $limit;
     $articles = [];
     $r_articles = mysqli_query($db_cnx, $q_articles);
     if (!$r_articles) {

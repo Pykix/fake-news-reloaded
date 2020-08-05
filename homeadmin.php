@@ -18,15 +18,15 @@ if (!isset($_SESSION['user'])) {
 
 ?>
     <div class="container">
-        <h1>Nous sachons ! on sait qu'ils savent que nous savons qu'il savent qu'on sait</h1>
+        <h1>Nous sachons ! On sait qu'ils savent que nous savons qu'il savent qu'on sait</h1>
 
-        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card  bg-light mb-3 w-50">
             <div class="card-header">Nombres d'utilisateur</div>
             <div class="card-body">
-                <p class="card-text"><?php echo countThings($db_cnx, 'users'); ?></p>
+                <p class="card-text "><?php echo countThings($db_cnx, 'users'); ?></p>
             </div>
         </div>
-        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card  bg-light mb-3 w-50">
             <div class="card-header">Nombres d'articles</div>
             <div class="card-body">
                 <p class="card-text"><?php echo countThings($db_cnx, 'posts'); ?></p>

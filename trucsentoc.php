@@ -16,9 +16,9 @@ require_once 'inc/navbar.php';
 
             <div class="">
                 <?php if (isset($db_cnx)) {
-                    foreach (displayArticles($db_cnx) as $article): ?>
+                    foreach (displayArticles($db_cnx, '100') as $article): ?>
                         <div class="separator"></div>
-                        <article class="articles-link">
+                        <article class="articles-link" id="<?php echo $article['id'] ?>">
 
                             <div class="justify-content-md-start">
                                 <p id="date" class="mt-lg-5"><?php echo $article['date_creation'] ?></p>

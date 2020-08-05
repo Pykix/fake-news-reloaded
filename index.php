@@ -10,12 +10,16 @@ require_once 'inc/navbar.php';
         <div class="separator"></div>
         <div class="separator"></div>
         <section class="last-news">
-
+            <h1>Les dernieres news</h1>
             <div class="last-news d-flex flex-md-row flex-md-wrap align-items-start justify-content-md-around ">
+
                 <?php if (isset($db_cnx)) {
-                    foreach (displayArticles($db_cnx) as $article): ?>
+
+                    foreach (displayArticles($db_cnx, '3') as $article): ?>
+
                         <article class="col-md-6 col-lg-4 align-items-stretch mt-lg-0">
-                            <a href="trucsentoc.php#<?php echo $article['id'] ?>">
+
+                            <a class="index" href="trucsentoc.php#<?php echo $article['id'] ?>">
                             <img class="img-article"  src="<?php echo $article['image'] ?>" alt="img"/>
                             <p id="date" class="mt-lg-5"><?php echo $article['date_creation'] ?></p>
                             <h2><?php echo $article['title'] ?></h2>
@@ -23,9 +27,13 @@ require_once 'inc/navbar.php';
                                 <?php echo $article['chapo'] ?>
                             </p>
                             </a>
+
                         </article>
+
                     <?php endforeach;
+
                 } ?>
+
             </div>
             <button class="more">
                 <a href="trucsentoc.php"><i class="fas fa-file"></i> J'en veux encore !</a>

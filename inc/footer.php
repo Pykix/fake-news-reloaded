@@ -4,7 +4,6 @@
     <div class="text-center">
     <h3>
         des questions ?<br />
-        <!-- TODO changer le retour ligne -->
         <strong>contactez-nous:</strong>
     </h3>
     <p>Nous vous répondrons exclusivement par pigeon voyageur.</p>
