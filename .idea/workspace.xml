@@ -6,32 +6,18 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:btnUpdate" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:adminVisual" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
-      <change afterPath="$PROJECT_DIR$/asset/image/pic07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/addArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/addArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/addArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/homeadmin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
