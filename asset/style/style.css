@@ -105,7 +105,8 @@ body.menu-actived {
 }
 
 .menu {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     margin-left: -250px;
     position: relative;
     width: 250px;
@@ -114,11 +115,12 @@ body.menu-actived {
 
 .menu.active {
     background-color: var(--dark-grey);
-    display: block;
+    opacity: 1;
     height: 100vh;
     left: 0;
     position: fixed;
     top: 0;
+    visibility: visible;
     transform: translate(250px);
     z-index: 250;
     transition: 0.3s;
@@ -604,7 +606,9 @@ h1#details {
 
 /***MEDIA > 991*/
 @media (min-width: 992px) {
-    .menu {
+    #menuDesktop {
+        visibility: visible;
+        opacity: 1;
         display: flex;
         justify-content: space-evenly;
         margin: 50px auto 25px;

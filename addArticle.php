@@ -8,7 +8,7 @@ require_once 'inc/adminnavbar.php';
 
 ?>
 <div class="container">
-    <form method="post" action="libs/addArticle.php">
+    <form method="post" action="libs/addArticle.php" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="title" class="form-label">Titre</label>
             <input type="text" name="title" class="form-control" id="title">
