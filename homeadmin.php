@@ -21,7 +21,7 @@ if (!isset($_SESSION['user'])) {
         <h1>Nous sachons ! On sait qu'ils savent que nous savons qu'il savent qu'on sait</h1>
 
         <div class="card  bg-light mb-3 w-50">
-            <div class="card-header">Nombres d'utilisateur</div>
+            <div class="card-header">Nombres d'utilisateurs</div>
             <div class="card-body">
                 <p class="card-text "><?php echo countThings($db_cnx, 'users'); ?></p>
             </div>
