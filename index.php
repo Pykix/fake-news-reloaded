@@ -17,7 +17,7 @@ require_once 'inc/navbar.php';
 
                     foreach (displayArticles($db_cnx, '3') as $article): ?>
 
-                        <article class="col-md-6 col-lg-4 align-items-stretch mt-lg-0">
+                        <article class="col-md-6 col-lg-4 align-items-stretch mt-lg-0 mx-auto">
 
                             <a class="index" href="trucsentoc.php#<?php echo $article['id'] ?>">
                             <img class="img-article"  src="<?php echo $article['image'] ?>" alt="img"/>
@@ -35,9 +35,9 @@ require_once 'inc/navbar.php';
                 } ?>
 
             </div>
-            <button class="more">
-                <a href="trucsentoc.php"><i class="fas fa-file"></i> J'en veux encore !</a>
-            </button>
+
+                <a href="trucsentoc.php" class="more"><i class="fas fa-file"></i> J'en veux encore !</a>
+
         </section>
     </div>
 

@@ -34,6 +34,7 @@
         </nav>
         <div class="brand-name">
             <h1 class="title" id="<?php echo $_SERVER['SCRIPT_NAME'] == '/detailsArticle.php' ? 'details' :''; ?>">Fake news II</h1>
+            <?php echo $_SERVER['SCRIPT_NAME'] == '/trucsentoc.php' ? '<h3>Trucs en toc</h3>' :''; ?>
             <?php if ($_SERVER['SCRIPT_NAME'] !== '/detailsArticle.php'): ?>
             <p class="p-title" ">
                 <?php echo displaySubtitle($db_cnx, $_SERVER['SCRIPT_NAME'] == '/index.php' ? 'index' : 'toc' );?>

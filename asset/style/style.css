@@ -40,7 +40,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: var(--white);
+    color: var(--orange-hover);
 }
 
 .index:hover {
@@ -68,7 +68,8 @@ h3 {
 }
 
 
-button {
+a.more,
+a.btnLink {
     border: none;
     background: var(--orange);
     box-shadow: var(--box-shadow);
@@ -82,12 +83,13 @@ button {
     width: 100%;
 }
 
-button a {
-    color: var(--white);
-    padding: 20px 67px;
+a.btnLink {
+    margin: 15px 0 50px;
 }
 
-button:hover {
+
+a.more:hover,
+a.btnLink:hover {
     background: var(--orange-hover);
 }
 
@@ -119,6 +121,7 @@ body.menu-actived {
     top: 0;
     transform: translate(250px);
     z-index: 250;
+    transition: 0.3s;
 }
 
 .menu.active a {
@@ -539,22 +542,16 @@ h1#details {
 
     }
 
-    button {
-        border: none;
-        background: var(--orange);
-        box-shadow: var(--box-shadow);
-        border-radius: var(--border-radius);
-        color: var(--white);
-        margin-bottom: 50px;
-        padding: 20px 50px;
-        font-size: 1.2rem;
-        font-weight: 400;
-        text-transform: uppercase;
+    a.more
+    {
         width: 50%;
     }
-    button a {
-        color: var(--white);
-        padding: 20px 47px;
+
+    a.btnLink {
+        margin: 15px 0 50px;
+        font-size: 1rem;
+        padding: 10px 50px;
+        width: 300px;
     }
 
 
@@ -686,9 +683,17 @@ h1#details {
         width: 80%;
     }
 
-    .last-news button {
+    a.more
+    {
         font-size: 0.9rem;
         width: 33%;
+    }
+
+    a.btnLink {
+        margin: 15px 0 50px;
+        font-size: 1rem;
+        padding: 10px 50px;
+        width: 300px;
     }
 
     .articles-link {

@@ -31,10 +31,8 @@ require_once 'inc/navbar.php';
                                     <?php echo $article['chapo'] ?>
                                 </p>
                             </div>
-                            <button class="btnLink">
-                                <a href="detailsArticle.php?id=<?php echo $article['id'] ?>&title=<?php echo $article['title'] ?>"><i
+                                <a href="detailsArticle.php?id=<?php echo $article['id'] ?>&title=<?php echo $article['title'] ?> " class="btnLink"><i
                                             class="fas fa-file"></i> J'en veux encore !</a>
-                            </button>
                         </article>
 
                     <?php endforeach;
