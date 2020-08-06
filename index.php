@@ -5,6 +5,11 @@ include_once 'libs/functions.php';
 require 'inc/header.php';
 require_once 'inc/navbar.php';
 
+
+if (isset($_SERVER['REMOTE_ADDR'])) {
+    $ip = $_SERVER['REMOTE_ADDR'];
+}
+
 ?>
     <div class="container text-center">
         <div class="separator"></div>
@@ -21,7 +26,7 @@ require_once 'inc/navbar.php';
 
                             <a class="index" href="trucsentoc.php#<?php echo $article['id'] ?>">
                             <img class="img-article"  src="<?php echo $article['image'] ?>" alt="img"/>
-                            <p id="date" class="mt-lg-5"><?php echo $article['date_creation'] ?></p>
+                            <p id="date" class="mt-lg-5"><?php echo dateFormat($article['date_creation']); ?></p>
                             <h2><?php echo $article['title'] ?></h2>
                             <p>
                                 <?php echo $article['chapo'] ?>

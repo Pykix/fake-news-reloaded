@@ -13,7 +13,6 @@ require_once 'inc/navbar.php';
         <section class="last-news">
 
 
-
             <div class="">
                 <?php if (isset($db_cnx)) {
                     foreach (displayArticles($db_cnx, '100') as $article): ?>
@@ -21,7 +20,16 @@ require_once 'inc/navbar.php';
                         <article class="articles-link" id="<?php echo $article['id'] ?>">
 
                             <div class="justify-content-md-start">
-                                <p id="date" class="mt-lg-5"><?php echo $article['date_creation'] ?></p>
+                                <p id="date" class="mt-lg-5">
+                                    <?php
+
+                                    $dateFormat = $article['date_creation'];
+                                    $sec = strtotime($dateFormat);
+                                    $newDate = date("d/m/Y H:i", $sec);
+                                    echo $newDate;
+
+                                    ?>
+                                </p>
                                 <h2><?php echo $article['title'] ?></h2>
                             </div>
                             <div class="d-md-flex flex-md-row">
@@ -31,8 +39,9 @@ require_once 'inc/navbar.php';
                                     <?php echo $article['chapo'] ?>
                                 </p>
                             </div>
-                                <a href="detailsArticle.php?id=<?php echo $article['id'] ?>&title=<?php echo $article['title'] ?> " class="btnLink"><i
-                                            class="fas fa-file"></i> J'en veux encore !</a>
+                            <a href="detailsArticle.php?id=<?php echo $article['id'] ?>&title=<?php echo $article['title'] ?> "
+                               class="btnLink"><i
+                                        class="fas fa-file"></i> J'en veux encore !</a>
                         </article>
 
                     <?php endforeach;

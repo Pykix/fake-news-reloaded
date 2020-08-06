@@ -47,7 +47,7 @@
 <footer class="text-center">
     <p>
         &copy; Fake News II. Tous droits réservés.
-        <a href="#">Mentions Illégales</a>
+        <a href="/mentionsillegales.php">Mentions Illégales</a>
     </p>
 </footer>
 </div>

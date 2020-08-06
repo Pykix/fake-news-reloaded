@@ -766,13 +766,19 @@ h1#details {
 /*********************************************************************************/
 /*********************************************************************************/
 
+.background-admin {
+    background: var(--background-grey);
+    height: 100vh;
+}
+
+
 /* NAVIGATION */
 
 .navigation {
     position: fixed;
     width: 60px;
     height: 100%;
-    background: #3e0748;
+    background: var(--grey);
     overflow: hidden;
     transition: 0.5s;
     z-index: 1000;
@@ -820,7 +826,7 @@ h1#details {
 }
 
 .navigation ul li:hover {
-    background: #ea1d63;
+    background: var(--light-grey);
 }
 
 .toggle {
@@ -829,13 +835,13 @@ h1#details {
     right: 0;
     width: 60px;
     height: 60px;
-    background: #330748;
+    background: var(--grey);
     cursor: pointer;
     z-index: 1500;
 }
 
 .toggle:hover {
-    background: #ea1d63;
+    background: var(--light-grey);
 }
 
 .toggle::before {

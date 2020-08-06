@@ -21,7 +21,14 @@ require_once 'inc/navbar.php';
     <div class="separator"></div>
     <div class="separator"></div>
     <article class="text-center">
-        <p id="date"><?php echo $elt['date_creation'] ?></p>
+        <p id="date">
+            <?php
+            $dateFormat = $elt['date_creation'];
+            $sec = strtotime($dateFormat);
+            $newDate = date("d/m/Y H:i", $sec);
+            echo $newDate;
+            ?>
+        </p>
         <img src="<?php echo $elt['image'] ?>" class="img-article" alt="image">
         <p class="text-left"><?php echo $elt['chapo'] ?></p>
         <p class="text-left"><?php echo $elt['content'] ?></p>
