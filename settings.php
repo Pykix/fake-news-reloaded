@@ -3,6 +3,8 @@ require_once 'libs/variables.php';
 require_once 'libs/functions.php';
 $page = 'Settings | ' . $_SESSION['user']['login'];
 
+notConnected($connected);
+
 require_once 'inc/header.php';
 require_once 'inc/adminnavbar.php';
 
@@ -18,6 +20,7 @@ if (isset($_POST['indexSubtitle']) || isset($_POST['trucsentocSubtitle'])) {
 
 
 ?>
+<div class="background-admin">
 <div class="container">
 <h1>Reglages</h1>
     <form action="settings.php" method="post">
@@ -29,7 +32,7 @@ if (isset($_POST['indexSubtitle']) || isset($_POST['trucsentocSubtitle'])) {
     <button type="submit" class="mt-3 w-25">Modifier</button>
     </form>
 </div>
-
+</div>
 <?php
 require_once 'inc/adminfooter.php';
 ?>

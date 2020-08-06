@@ -4,6 +4,8 @@ require_once 'libs/functions.php';
 
 $page = 'Modification utilisateurs | ' . $_SESSION['user']['login'];
 
+notConnected($connected);
+
 require_once 'inc/header.php';
 require_once 'inc/adminnavbar.php';
 

@@ -2,7 +2,7 @@
 require_once 'libs/variables.php';
 require_once 'libs/functions.php';
 $page = 'Ajouter un user | ' . $_SESSION['user']['login'];
-
+notConnected($connected);
 require_once 'inc/header.php';
 require_once 'inc/adminnavbar.php';
 
