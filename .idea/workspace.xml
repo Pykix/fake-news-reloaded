@@ -16,25 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
+    <list default="true" id="9e289891-6ce4-4e1a-b267-073b62ef511a" name="Default Changelist" comment="merge de la branch adminVisual">
+      <change afterPath="$PROJECT_DIR$/libs/sql/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/addArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/addUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailsArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/detailsArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/homeadmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentionsillegales.php" beforeDir="false" afterPath="$PROJECT_DIR$/mentionsillegales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modificateArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modificateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/modificateUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trucsentoc.php" beforeDir="false" afterPath="$PROJECT_DIR$/trucsentoc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596474505788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merge de la branch adminVisual">
+      <created>1596745912683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596745912683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -144,7 +135,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="btnUpdate" />
+                        <option value="adminVisual" />
                       </list>
                     </value>
                   </entry>
@@ -161,7 +152,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="styling page" />
     <MESSAGE value="suite backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="suite backend" />
+    <MESSAGE value="merge de la branch adminVisual" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge de la branch adminVisual" />
   </component>
   <component name="WindowStateProjectService">
     <state x="110" y="402" key="#SQL_Dialects" timestamp="1596429105151">

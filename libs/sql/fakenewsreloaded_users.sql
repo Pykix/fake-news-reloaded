@@ -1,0 +1,5 @@
+INSERT INTO fakenewsreloaded.users (id, login, password, role) VALUES (3, 'admin', '6f35417b2cbdbe57ced5ae0d12d86bc1619463f3b41053efb20ef92372014f2f57d6a9249a111d7ce4c9cc3ab23c748ba46340d75f5e1985c592d10459413b7e', 0);
+INSERT INTO fakenewsreloaded.users (id, login, password, role) VALUES (7, 'OneJameson', '0c48ed860f7d30117aecc9ea458c3c93f5a4fa809091423eb41d6aa1654b80a237dc1e90943756f30d2d2db6a8232a01729ddbbae97fe09a675fb8065c6dc020', 0);
+INSERT INTO fakenewsreloaded.users (id, login, password, role) VALUES (8, 'redac', '0ade928495dac598d28929ce7cf9ed6983e54a18ea63fe31afccd45dd5fa76b01da3d17c05d844e8a50a096677def6150245d56c3c1cf60350ae6a3aebd19a69', 1);
+INSERT INTO fakenewsreloaded.users (id, login, password, role) VALUES (10, 'Linda', 'e33294d67f7cb7a4a4dbc12af8dc12b1a417942dc6afa806c4a89aaf1eb27043e96c502c71cd3cb20d4956c180f801136cd18ee91ed245f2f4b25721702203ee', 1);
+INSERT INTO fakenewsreloaded.users (id, login, password, role) VALUES (11, 'Ulule', '130324b0d0221a1e26e4846a2b0b3ab9b0d0dca09d372cefc83b62f0bc7e997c003be4a2e054ec5549ebcd97f991052e18ce98fb3769f9eaf13146ba8c6ead4f', 1);

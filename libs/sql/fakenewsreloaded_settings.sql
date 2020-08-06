@@ -1,0 +1,2 @@
+INSERT INTO fakenewsreloaded.settings (id, name, value) VALUES (3, 'subtitle_index', 'Il revient avec encore plus de news en php et sql');
+INSERT INTO fakenewsreloaded.settings (id, name, value) VALUES (4, 'subtitle_trucentoc', 'Plus en détails car nous sachons !');
