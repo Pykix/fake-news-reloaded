@@ -14,8 +14,11 @@ require_once 'inc/navbar.php';
 
 
             <div class="">
+
                 <?php if (isset($db_cnx)) {
+                    // affichage de tout les articles
                     foreach (displayArticles($db_cnx, '100') as $article): ?>
+
                         <div class="separator"></div>
                         <article class="articles-link" id="<?php echo $article['id'] ?>">
 
@@ -23,10 +26,7 @@ require_once 'inc/navbar.php';
                                 <p id="date" class="mt-lg-5">
                                     <?php
 
-                                    $dateFormat = $article['date_creation'];
-                                    $sec = strtotime($dateFormat);
-                                    $newDate = date("d/m/Y H:i", $sec);
-                                    echo $newDate;
+                                    echo dateFormat($article['date_creation']);
 
                                     ?>
                                 </p>
