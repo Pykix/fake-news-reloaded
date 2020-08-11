@@ -2,7 +2,8 @@
 require_once 'variables.php';
 require_once 'functions.php';
 
-var_dump($_POST);
+// Si post on recupère les infos du form et on les injecte dans la database, info qui sera recupéré
+// et afficher sur les pages demandées
 if (isset($_POST['title'])) {
     if (!empty($_POST['title'])) {
 

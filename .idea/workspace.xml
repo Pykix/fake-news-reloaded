@@ -16,7 +16,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e289891-6ce4-4e1a-b267-073b62ef511a" name="Default Changelist" comment="Ajouts des fichiers sql" />
+    <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
+      <change afterPath="$PROJECT_DIR$/asset/image/5k-planet-minimalist-8s.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailsArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/detailsArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/homeadmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/adminnavbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/adminnavbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/addArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/addArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modificateArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trucsentoc.php" beforeDir="false" afterPath="$PROJECT_DIR$/trucsentoc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +104,7 @@
       <workItem from="1596709438722" duration="596000" />
       <workItem from="1596719849347" duration="6000" />
       <workItem from="1596741364289" duration="3999000" />
+      <workItem from="1597147846715" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
@@ -105,21 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1596474505788</updated>
     </task>
-    <task id="LOCAL-00003" summary="merge de la branch adminVisual">
-      <created>1596745912683</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1596745912683</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Ajouts des fichiers sql">
-      <created>1596746504490</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1596746504490</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -156,9 +157,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="styling page" />
     <MESSAGE value="suite backend" />
-    <MESSAGE value="merge de la branch adminVisual" />
-    <MESSAGE value="Ajouts des fichiers sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajouts des fichiers sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="suite backend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="110" y="402" key="#SQL_Dialects" timestamp="1596429105151">
@@ -193,9 +192,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="92" y="132" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596613882982" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596520717053">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597148630886">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596520717053" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1597148630886" />
   </component>
 </project>
