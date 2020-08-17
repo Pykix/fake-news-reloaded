@@ -5,7 +5,9 @@ require_once 'libs/functions.php';
 $page = 'Modification utilisateurs | ' . $_SESSION['user']['login'];
 
 notConnected($connected);
-
+if ($_SESSION['user']['role'] != 0) {
+    header('Location: /homeadmin.php');
+}
 require_once 'inc/header.php';
 require_once 'inc/adminnavbar.php';
 
@@ -40,27 +42,27 @@ if (isset($_POST['login'])) {
 
 
 ?>
-    <div class="container">
+<div class="container">
 
-        <?php foreach (displayUniqueUsers($db_cnx, $_SESSION['id']) as $elt): ?>
-            <p>login : <?php echo $elt['login'] ?></p>
-            <p>role : <?php echo $elt['role'] == 0 ? 'Administrateur' : 'Journaliste' ?></p>
-        <?php endforeach; ?>
+    <?php foreach (displayUniqueUsers($db_cnx, $_SESSION['id']) as $elt) : ?>
+        <p>login : <?php echo $elt['login'] ?></p>
+        <p>role : <?php echo $elt['role'] == 0 ? 'Administrateur' : 'Journaliste' ?></p>
+    <?php endforeach; ?>
 
-        <form method="post" action="modificateUser.php">
-            <div class="mb-3">
-                <label for="login" class="form-label">Login</label>
-                <input type="text" name="login" class="form-control" id="login" aria-describedby="login">
+    <form method="post" action="modificateUser.php">
+        <div class="mb-3">
+            <label for="login" class="form-label">Login</label>
+            <input type="text" name="login" class="form-control" id="login" aria-describedby="login">
 
-            </div>
-            <div class="form-check form-switch">
-                <input class="form-check-input" name="administrateur" type="checkbox" id="administrateur">
-                <label class="form-check-label" for="administrateur">Administrateur</label>
-            </div>
-            <button type="submit" class="btn btn-success">Modifier</button>
-        </form>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" name="administrateur" type="checkbox" id="administrateur">
+            <label class="form-check-label" for="administrateur">Administrateur</label>
+        </div>
+        <button type="submit" class="btn btn-success">Modifier</button>
+    </form>
 
-    </div>
+</div>
 
 <?php
 require_once 'inc/adminfooter.php';

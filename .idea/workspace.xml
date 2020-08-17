@@ -16,20 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="suite backend">
-      <change afterPath="$PROJECT_DIR$/asset/image/5k-planet-minimalist-8s.jpg" afterDir="false" />
+    <list default="true" id="d9167162-af55-49f7-8014-dbd7a7b6f136" name="Default Changelist" comment="Erreur">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailsArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/detailsArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/homeadmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/adminnavbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/adminnavbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/addArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/addArticle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modificateArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/modificateArticles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trucsentoc.php" beforeDir="false" afterPath="$PROJECT_DIR$/trucsentoc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +66,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="" />
+      <changelist id="d9167162-af55-49f7-8014-dbd7a7b6f136" name="Default Changelist" comment="Erreur" />
       <created>1596212692077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -105,6 +93,10 @@
       <workItem from="1596719849347" duration="6000" />
       <workItem from="1596741364289" duration="3999000" />
       <workItem from="1597147846715" duration="3886000" />
+      <workItem from="1597155257038" duration="542000" />
+      <workItem from="1597222511146" duration="1911000" />
+      <workItem from="1597265002220" duration="4000" />
+      <workItem from="1597323374567" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
@@ -120,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596474505788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Erreur">
+      <created>1597152291773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597152291773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -157,7 +156,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="styling page" />
     <MESSAGE value="suite backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="suite backend" />
+    <MESSAGE value="Erreur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erreur" />
   </component>
   <component name="WindowStateProjectService">
     <state x="110" y="402" key="#SQL_Dialects" timestamp="1596429105151">
