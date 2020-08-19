@@ -16,6 +16,7 @@ require_once 'libs/variables.php';
                 <span class="title">Reglages</span>
             </a>
         </li>
+        <!-- Si l'user n'est pas admin il ne vera pas la onglet user-->
         <?php if ($_SESSION['user']['role'] == 0): ?>
         <li>
             <a href="/users.php">

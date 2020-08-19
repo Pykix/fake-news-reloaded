@@ -16,8 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e289891-6ce4-4e1a-b267-073b62ef511a" name="Default Changelist" comment="merge de la branch adminVisual">
-      <change afterPath="$PROJECT_DIR$/libs/sql/script.sql" afterDir="false" />
+    <list default="true" id="d9167162-af55-49f7-8014-dbd7a7b6f136" name="Default Changelist" comment="Erreur">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78e64c10-e247-45af-9f82-955733a10586" name="Default Changelist" comment="" />
+      <changelist id="d9167162-af55-49f7-8014-dbd7a7b6f136" name="Default Changelist" comment="Erreur" />
       <created>1596212692077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -93,6 +92,11 @@
       <workItem from="1596709438722" duration="596000" />
       <workItem from="1596719849347" duration="6000" />
       <workItem from="1596741364289" duration="3999000" />
+      <workItem from="1597147846715" duration="3886000" />
+      <workItem from="1597155257038" duration="542000" />
+      <workItem from="1597222511146" duration="1911000" />
+      <workItem from="1597265002220" duration="4000" />
+      <workItem from="1597323374567" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="styling page">
       <created>1596316833164</created>
@@ -108,12 +112,12 @@
       <option name="project" value="LOCAL" />
       <updated>1596474505788</updated>
     </task>
-    <task id="LOCAL-00003" summary="merge de la branch adminVisual">
-      <created>1596745912683</created>
+    <task id="LOCAL-00003" summary="Erreur">
+      <created>1597152291773</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1596745912683</updated>
+      <updated>1597152291773</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -152,8 +156,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="styling page" />
     <MESSAGE value="suite backend" />
-    <MESSAGE value="merge de la branch adminVisual" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge de la branch adminVisual" />
+    <MESSAGE value="Erreur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erreur" />
   </component>
   <component name="WindowStateProjectService">
     <state x="110" y="402" key="#SQL_Dialects" timestamp="1596429105151">
@@ -188,9 +192,9 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="92" y="132" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596613882982" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1596520717053">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1597148630886">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1596520717053" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1597148630886" />
   </component>
 </project>

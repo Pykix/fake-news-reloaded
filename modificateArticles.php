@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     $_SESSION['id'] = $_GET['id'];
 }
 
-
+// Logique de modification d'articles
 if (isset($_POST['title'])) {
     if (!empty($_POST['title'])) {
 
@@ -28,7 +28,7 @@ if (isset($_POST['title'])) {
             $pathImage = $path . $img;
             move_uploaded_file($_FILES['image']['tmp_name'], $pathImage);
             $date = !empty($_POST['date']) ? $_POST['date'] : '2099-01-01 00:00:00';
-            $chapo = !empty($_POST['chapo']) ? $_POST['chapo'] : ' ' ;
+            $chapo = !empty($_POST['chapo']) ? $_POST['chapo'] : 'L\'auteur a eu la flemme d\' ecrire un résumé...' ;
             $content = !empty($_POST['content']) ? $_POST['content'] : ' ' ;
             mysqli_stmt_bind_param($stmt_modify_article, 'sssssi', $date,$title,  $chapo, $content, $pathImage, $id);
             mysqli_stmt_execute($stmt_modify_article);

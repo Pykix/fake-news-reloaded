@@ -1,11 +1,15 @@
 <?php
 require_once 'variables.php';
 
+// recuperation des info du form de connexion pour verifier l'existence de celle ci,
+// si elle existe l'utilisateur sera connecté avec les information correspondant a son profil et accedera au backend
+
+
 if (!isset($_POST['login']) || !isset($_POST['password'])) {
     header('Location: ../connexion.php');
 }
 
-$q_auth = 'SELECT `id`, `login`, `role` FROM users WHERE `login` = ? AND `password` = ?';
+$q_auth = 'SELECT `id`, `login`, `role` FROM users WHERE `login` = ? AND `password` = ?'; //preparation de la requete
 
 $stmt_auth = mysqli_prepare($db_cnx, $q_auth);
 
@@ -32,7 +36,7 @@ if (!$stmt_auth) {
     }
     else {
 
-        $_SESSION['error_cnx'] = 'Utilisateur ou mot de passe incorrect';
+        $_SESSION['error_cnx'] = 'Utilisateur ou mot de passe incorrect'; // Si erreur de login ou de mdp un message d'erreur apparait
         header('Location: ../connexion.php');
 
     }
