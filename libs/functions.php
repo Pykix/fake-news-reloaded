@@ -27,7 +27,7 @@ function displayArticles($db_cnx, $limit)
  */
 function displayUsers($db_cnx)
 {
-    $q_users = 'SELECT `id`, `login`, `role` FROM `users`';
+    $q_users = 'SELECT `id`, `login`, `role` FROM `users` WHERE `role` = 1';
     $users = [];
     $r_users = mysqli_query($db_cnx, $q_users);
     if (!$r_users) {
@@ -101,7 +101,6 @@ function displaySubtitle($db_cnx, $page)
     }
 
     return $title;
-
 }
 
 /** Modification des sous titre des pages
@@ -137,7 +136,8 @@ function countThings($db_cnx, $table)
  * @param $date
  * @return false|string
  */
-function dateFormat($date){
+function dateFormat($date)
+{
     $sec = strtotime($date);
     return date("d/m/Y H:i", $sec);
 }
@@ -145,7 +145,8 @@ function dateFormat($date){
 /** Verification si user connecté
  * @param $connected
  */
-function notConnected ($connected) {
+function notConnected($connected)
+{
     if (!$connected) {
         header('Location: /');
     }
